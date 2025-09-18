@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Our Love Story</title>
+	<title>生日快乐</title>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<style type="text/css">
@@ -22,31 +22,31 @@
 		<div id="content">
 			<div id="code">
 				<span class="comments">##</span><br />
-				<span class="comments"># 我是一名程序员,</span><br />
-				<span class="comments"># 所以我在七夕这天用写代码的方式来表达.</span><br />
+				<span class="comments"># 因为你不收我的礼物,</span><br />
+				<span class="comments"># 所以我就用这份代码来祝福你.</span><br />
 				<span class="comments">##</span><br />
 				i = Boy(<span class="string">"Feng"</span>);<br />
-				u = Girl(<span class="string">"Ping"</span>);<br />
-				<span class="comments"># 2024年6月22日, 我遇见了你. </span><br />
+				u = Girl(<span class="string">"Tong"</span>);<br />
+				<span class="comments"># 2025年9月14日, 我认识了你. </span><br />
 				i.meet(u)<br />
-				<span class="comments"># 然后, 我喜欢上了你. </span><br />
-				i.love(u)<br />
-				<span class="comments"># 之后，我们度过了一段快乐的日子.</span><br />
+				<span class="comments"># 和你聊天， </span><br />
+				i.chat_with(u)<br />
+				<span class="comments"># 分享日常，</span><br />
+				i.share_my_daily(u)<br />
+				<span class="comments"># 每天都很开心.</span><br />
 				happy(u, i)<br />
-				<span class="comments"># 我每天都在思念你.</span><br />
-				i.miss(u)<br />
-				<span class="comments"># 我想见到你.</span><br />
-				i.want.to.meet(u)<br />
+				<span class="comments"># 刚好赶上了你的生日，祝你生日快乐.</span><br />
+				i.celebrate(u)<br />
 			</div>
 			<div id="loveHeart">
 				<canvas id="garden"></canvas>
 				<div id="words">
 					<div id="messages">
-						Ping, 我喜欢上你有
+						Tong, 我希望从这一刻起
 						<div id="elapseClock"></div>
 					</div>
 					<div id="loveu">
-						我会喜欢你很久很久.<br />
+						你每天都能开心.<br />
 						<div class="signature">- Feng</div>
 					</div>
 				</div>
@@ -58,10 +58,10 @@
 		var offsetY = $("#loveHeart").height() / 2 - 55;
 		var together = new Date();
 		// 此处月份介于 0 ~ 11 之间。用本地时间表示，如 8 月要用 7 表示。
-		together.setFullYear(2024, 5, 22);
-		together.setHours(23);
-		together.setMinutes(59);
-		together.setSeconds(59);
+		together.setFullYear(2025, 8, 14);
+		together.setHours(16);
+		together.setMinutes(37);
+		together.setSeconds(0);
 		together.setMilliseconds(0);
 
 		if (!document.createElement('canvas').getContext) {
